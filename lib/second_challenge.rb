@@ -5,9 +5,8 @@ def second_challenge
    meat: ["chicken", "steak", "salmon"],
    grains: ["rice", "pasta"]
   }
-  array=[]
-  groceries.keys each do |key|
-    array.concat(groceries[:key].values)
+  array= []
+    array.concat(groceries.values)
   end 
   array
  
