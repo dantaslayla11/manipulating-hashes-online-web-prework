@@ -7,7 +7,7 @@ def second_challenge
   }
 
   
-  groceries.values.join 
+  groceries.values each do |key|
   
  
  
