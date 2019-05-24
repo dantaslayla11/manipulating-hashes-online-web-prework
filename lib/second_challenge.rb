@@ -6,7 +6,7 @@ def second_challenge
    grains: ["rice", "pasta"]
   }
   array = []
-  array.groceries[:dairy].values
+  array.concat(groceries[:dairy].values)
   #code your solution here!
 
   
