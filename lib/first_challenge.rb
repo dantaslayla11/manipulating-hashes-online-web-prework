@@ -18,6 +18,7 @@ def first_challenge
     puts "value is #{v}"
      v.each do |attribute, value|
        puts attribute
+       puts "2nd value is #{value}"
        if attribute == :favorite_icecream_flavors
          value.delete_if{|value|value =="strawberry"}
        end
