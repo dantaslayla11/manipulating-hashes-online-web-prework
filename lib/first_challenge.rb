@@ -12,8 +12,17 @@ def first_challenge
       favorite_icecream_flavors: ["strawberry", "cookie dough", "mint chip"]
     }
   }
-
-
+  
+  contacts.each do |k, v|
+     v.each do |k1,v1|
+       if k1==":favorite_icecream_flavors"
+         if v1.includes?("strawberry")
+           v1.delete_if?("strawberry")
+         end 
+         
+       end
+     end    
+  end
   #your code here
 
 
