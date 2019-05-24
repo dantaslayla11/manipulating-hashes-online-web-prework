@@ -14,7 +14,8 @@ def first_challenge
   }
   
   contacts.each do |k, v|
-     v.each do |k1,v1|
+     v.each do |attribute, value|
+       if attribute == 
        if k1 ==:favorite_icecream_flavors   
         v1.delete_if {|fuck| puts fuck)}
         puts v1
