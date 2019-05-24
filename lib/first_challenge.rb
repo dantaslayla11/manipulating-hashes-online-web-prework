@@ -13,17 +13,20 @@ def first_challenge
     }
   }
   
-  contacts.each do |k, v|
-    puts k
-    puts "value is #{v}"
-     v.each do |attribute, value|
-       puts attribute
-       puts "2nd value is #{value}"
-       if attribute == :favorite_icecream_flavors
-         value.delete_if{|value|value =="strawberry"}
-       end
-     end    
-  end
+  contacts[:Freddy_Mercury][:favorite_icecream_flavors].delete_if{|value|value =="strawberry"}
+  
+  
+ # contacts.each do |k, v|
+  #  puts k
+   # puts "value is #{v}"
+    # v.each do |attribute, value|
+     #  puts attribute
+    #   puts "2nd value is #{value}"
+     #  if attribute == :favorite_icecream_flavors
+      #   value.delete_if{|value|value =="strawberry"}
+      # end
+     #end    
+  #end
   #your code here
 
 
