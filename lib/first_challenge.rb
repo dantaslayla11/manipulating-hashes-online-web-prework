@@ -16,7 +16,7 @@ def first_challenge
   contacts.each do |k, v|
     puts k
      v.each do |attribute, value|
-       puts v
+       puts attribute
        if attribute == :favorite_icecream_flavors
          value.delete_if{|value|value =="strawberry"}
        end
