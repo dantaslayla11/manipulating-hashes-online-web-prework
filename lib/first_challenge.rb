@@ -13,7 +13,7 @@ def first_challenge
     }
   }
   
-  contacts[:Freddy_Mercury][:favorite_icecream_flavors].delete_if{|value|value =="strawberry"}
+  contacts["Freddy Mercury"][:favorite_icecream_flavors].delete_if{|value|value =="strawberry"}
   
   
  # contacts.each do |k, v|
