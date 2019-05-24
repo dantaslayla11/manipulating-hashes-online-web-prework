@@ -15,7 +15,7 @@ def first_challenge
   
   contacts.each do |k, v|
     puts k
-    puts "value is " + v
+    puts "value is #{v}"
      v.each do |attribute, value|
        puts attribute
        if attribute == :favorite_icecream_flavors
